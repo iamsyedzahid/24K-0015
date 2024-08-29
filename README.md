@@ -1,3 +1,3 @@
 # 24K-0015
 My name is Syed Zahid Hussain.
-! [ Welcome ] ( [https://myoctocat.com/assets/images/base-octocat.svg](https://myoctocat.com/assets/images/base-octocat.svg) )
+![image](https://github.com/user-attachments/assets/e3098620-9a40-40fe-9c63-ebe2e97c8e48)
