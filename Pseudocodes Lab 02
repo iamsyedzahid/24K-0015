@@ -1,9 +1,9 @@
-Q1  **Processing a customer order at a restaurant**
+Q1  ***Processing a customer order at a restaurant***
 Start
 Read Order, Quantity
 Display "Your Order is, " Order
 Display "Your Quantity is, " Quantity
-diplay "You want an addon? (Y/N)"
+Display "You want an addon? (Y/N)"
 Read Continue
 If Continue == 'Y' THEN
   Read Special_Request
@@ -14,7 +14,7 @@ Else
 End
 
 
-Q2 **Handling a customer's deposit transaction at a Bank**
+Q2 ***Handling a customer's deposit transaction at a Bank***
 Start
 Input Acc_No, Deposit
 If Acc_No == 'T' THEN
@@ -22,8 +22,28 @@ If Acc_No == 'T' THEN
     Acc_Balance = Deposit + Acc_Balance
     Print "Deposited Amount is " Deposit
   Else 
-    Print "Invalid Amounnt"
+    Print "Invalid Amount"
 Else 
   Print "Account not found"
 End
+
+Q3 ***Find the Greatest Number out of 3***
+Start
+Input Num1, Num2, Num3
+If Num1 > Num2 AND Num1 > Num3 THEN
+  Print "Greatest number is, " Num1
+Else If Num2 > Num1 AND Num2 > Num3 THEN
+  Print "Greatest number is, " Num2
+Else 
+  Print "Greatest number is, " Num3
+End
+
+
+Q4 ***Displaying Months***
+1. Ask the user to enter a NUMBER between 1 and 12.
+2. Store the NUMBER in a variable x.
+3. Check if 0 < x < 12 to verify that number is in the range or not.
+  ~If not in range, display an error message telling invalid input.
+4. Use If-else conditions to match the input NUMBER with the corresponding month.
+5. Display the month.
 
