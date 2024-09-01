@@ -1,0 +1,13 @@
+Q7 ***Calculator***
+1. Ask user to enter Num1, Num1, Operator
+2. If Operator == '+' THEN
+3. Answer = Num1 + Num 2
+3. Print Answer
+4. Else If Operator == '-' THEN
+5. Answer = Num1 - Num2
+6. Print Answer
+7. Else If Operator == '/'
+8. Answer = Num1/Num2
+9. Print Answer
+10. Else Answer = Num1 % Num2
+11. Print Answer
