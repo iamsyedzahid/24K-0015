@@ -1,15 +1,21 @@
-**Processing a customer order at a restaurant**
+**Processing a customer order at a restaurant**  (PSEUDOCODE)
 Start
 Read Order, Quantity
 Display "Your Order is, " Order
 Display "Your Quantity is, " Quantity
-Display "You want an addon? (Y/N)"
+Display "You want an Addon? (Y/N)"
 Read Continue
 If Continue == 'Y' THEN
   Read Special_Request
   Display "Your Add on is, " Special_Request
   Display "Preparing Order"
-Else
+Else If Continue == 'N' THEN
   Display "Preparing Order"
 End
 
+**Processing a customer order at a restaurant** (ALGORITHM)
+1. Ask the user for Order and Quantity.
+2. Show the user its Order and Quantity to confirm.
+3. Ask the user if they want an Addon as a boolean.
+4. Ask to Continue, If they type Y then ask for Special Request.
+5. Else If they type N then show Preparing Order.
