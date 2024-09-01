@@ -1,0 +1,7 @@
+**Displaying Months**
+1. Ask the user to enter a NUMBER between 1 and 12.
+2. Store the NUMBER in a variable x.
+3. Check if 0 < x < 12 to verify that number is in the range or not.
+  ~If not in range, display an error message telling invalid input.
+4. Use If-else conditions to match the input NUMBER with the corresponding month.
+5. Display the month.
