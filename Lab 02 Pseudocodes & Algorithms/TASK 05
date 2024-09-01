@@ -1,0 +1,12 @@
+**Small Calculator**
+Start
+Declare Addition = 0
+Declare Subtraction = 0
+Input Num1, Num2, Operator
+If Operator == '+' THEN
+  Addition = Num1 + Num2
+  Print "Your Answer is " Addition
+Else
+  Subtraction = Num1 - Num2
+  Print "Your Answer is " Subtraction
+End
