@@ -1,1 +1,13 @@
+**Handling a customer's deposit transaction at a Bank**
+Start
+Input Acc_No, Deposit
+If Acc_No == 'T' THEN
+  If Deposit > 0 THEN
+    Acc_Balance = Deposit + Acc_Balance
+    Print "Deposited Amount is " Deposit
+  Else 
+    Print "Invalid Amount"
+Else 
+  Print "Account not found"
+End
 
