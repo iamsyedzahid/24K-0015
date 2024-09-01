@@ -1,1 +1,15 @@
+**Processing a customer order at a restaurant**
+Start
+Read Order, Quantity
+Display "Your Order is, " Order
+Display "Your Quantity is, " Quantity
+Display "You want an addon? (Y/N)"
+Read Continue
+If Continue == 'Y' THEN
+  Read Special_Request
+  Display "Your Add on is, " Special_Request
+  Display "Preparing Order"
+Else
+  Display "Preparing Order"
+End
 
