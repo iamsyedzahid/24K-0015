@@ -1,0 +1,10 @@
+**Find the Greatest Number out of 3**
+Start
+Input Num1, Num2, Num3
+If Num1 > Num2 AND Num1 > Num3 THEN
+  Print "Greatest number is, " Num1
+Else If Num2 > Num1 AND Num2 > Num3 THEN
+  Print "Greatest number is, " Num2
+Else 
+  Print "Greatest number is, " Num3
+End
