@@ -1,4 +1,4 @@
-**Handling a customer's deposit transaction at a Bank**
+**Handling a customer's deposit transaction at a Bank** (PSEUDOCODE)
 Start
 Input Acc_No, Deposit
 If Acc_No == 'T' THEN
@@ -11,3 +11,10 @@ Else
   Print "Account not found"
 End
 
+**Handling a customer's deposit transaction at a Bank** (ALGORITHM)
+1. Ask the user to input Account Number and Deposit amount.
+2. If Account Number is found Then, 
+3. Check If Deposit is greater than zero, Then Account Balance = Account Balance + Deposit
+4. Else If Deposit is less than zero, Then Display Invalid Amount.
+5. Else If Account Number is not found,
+6. Display Account not found.
