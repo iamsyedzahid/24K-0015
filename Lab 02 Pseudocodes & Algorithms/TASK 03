@@ -1,4 +1,4 @@
-**Find the Greatest Number out of 3**
+**Find the Greatest Number out of 3** (PSEUDOCODE)
 Start
 Input Num1, Num2, Num3
 If Num1 > Num2 AND Num1 > Num3 THEN
@@ -8,3 +8,9 @@ Else If Num2 > Num1 AND Num2 > Num3 THEN
 Else 
   Print "Greatest number is, " Num3
 End
+
+**Find the Greatest Number out of 3** (ALGORITHM)
+1. Ask the user to input 3 numbers.
+2. If 1st Number is greater than other two THEN, Display 1st Number is Greatest.
+3. Else If 2nd Number is greater than other two THEN, Display 2nd Number is Greatest.
+4. Else 3rd Number is greater than other two THEN, Display 3rd Number is Greatest.
