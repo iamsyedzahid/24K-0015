@@ -3,5 +3,5 @@
 2. Store the NUMBER in a variable x.
 3. Check if 0 < x < 13 to verify that number is in the range or not.
 4. If not in range, display an error message telling invalid input.
-5. Else if x matches the with the corresponding month then display the month accordingly
+5. Else if x matches the with the corresponding month Then,
 6. Display the month.
