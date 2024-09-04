@@ -1,4 +1,4 @@
-//Answer) The code written is using int which can store upto (2^32)/2 value, which is 2147483648. So we need to use long long int intead of int and replace %d with %lld.
+//Answer) The code written is using int which can store upto (2^32)/2 value, which is 2147483648. So we need to use long long int instead of int and replace %d with %lld.
 
 #include <stdio.h>
 
