@@ -20,9 +20,9 @@ int main()
         
         printf("'%c' is Consonant.", a);
     }
-    else
+    else if ("a>=0 && a<=9")
     {
-    printf("'%c' is not an alphabet.", a);
+    printf("'%c' is a number.", a);
     }
 return 0;
 }
