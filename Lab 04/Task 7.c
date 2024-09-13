@@ -3,20 +3,20 @@
 int main()
 {
 	int customer_id;
-	ch customer_name[] = "Name" ;
+	char customer_name[100] = "name" ;
 	int units;
 	float result;
 	float subcharges = 0.00;
 	float charges_per_unit;
 	float net_amount;
 	
-	printf("Enter your ID (4 digits, e.g 1001)\n :");
+	printf("Enter your ID (4 digits, e.g 1001): ");
 	scanf("%d", &customer_id);
 	
-	printf("Enter your Name.\n :");
+	printf("Enter your Name: ");
 	scanf("%s", &customer_name);
 
-	printf("Enter number of units consumed.\n :");
+	printf("Enter number of units consumed: ");
 	scanf("%d", &units);
 
 	if ( (units >= 0) && (units <=199) )
@@ -46,13 +46,14 @@ int main()
 	if ( result > 18000 )
 	{
 		subcharges = 0.15 * result;
+		net_amount = result + subcharges;
 	}
-
+	
 	printf("Customer ID: %d\n", customer_id);
-	printf("Customer Name: %d\n", customer_name);
-	printf("Amount Charges @Rs. %f per unit: %f\n", charges_per_unit, result);
-	printf("Customer ID: %d", subcahrges);
-	printf("Customer ID: %d", net_amount);
+	printf("Customer Name: %s\n", customer_name);
+	printf("Amount Charges @Rs. %.2f per unit: %.2f\n", charges_per_unit, result);
+	printf("Subcharge amount: %.2f\n", subcharges);
+	printf("Net Amount Paid by the Customer: %.2f", net_amount);
 	
 return 0;
 }
