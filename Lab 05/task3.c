@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main()
+int main()
 {
 	int a, b, c;
 	printf("Enter first number: ");
@@ -34,7 +34,7 @@ void main()
 	{ 
 	printf("%d is greatest.", c);
 	}
-return;
+return 0;
 }	
 	
 	
