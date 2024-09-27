@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main()
+int main()
 {
 	float a;
 	
@@ -8,5 +8,5 @@ void main()
 	scanf("%f", &a);
 	
 	(a==0)? printf("Number is zero."): (a<0)? printf("Number is negative."): (a>0)? printf("Number is positive."): printf("invalid number");
-return;	
+return 0;	
 }
