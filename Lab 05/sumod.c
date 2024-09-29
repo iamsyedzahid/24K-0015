@@ -1,5 +1,20 @@
 #include <stdio.h>
- 
+
+int main()
+{
+	int number, sum;
+	
+	printf("Enter a number (9 digits): ");
+	scanf("%d", &number);
+	
+	if (number > 0)
+	{
+		sum = (number % 10) + (number / 10 % 10) + (number / 100 % 10) + (number / 1000 % 10) + (number / 10000 % 10)
+			+ (number / 100000 % 10) + (number / 1000000 % 10) + (number / 10000000 % 10) + (number / 100000000 % 10);
+	}
+		printf("sum is: %d", sum);
+return 0;
+}
 /*
 Create a program that calculates the sum of digits of a number until the result is a single digit.
 */
@@ -21,19 +36,3 @@ Create a program that calculates the sum of digits of a number until the result 
 return 0;
 }
 */
-
-int main()
-{
-	int number, sum;
-	
-	printf("Enter a number (9 digits): ");
-	scanf("%d", &number);
-	
-	if (number > 0)
-	{
-		sum = (number % 10) + (number / 10 % 10) + (number / 100 % 10) + (number / 1000 % 10) + (number / 10000 % 10)
-			+ (number / 100000 % 10) + (number / 1000000 % 10) + (number / 10000000 % 10) + (number / 100000000 % 10);
-	}
-		printf("sum is: %d", sum);
-return 0;
-}
