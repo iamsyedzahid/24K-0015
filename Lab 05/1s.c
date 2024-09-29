@@ -8,19 +8,19 @@ int main()
 	scanf("%d",&num);
 
 
-	// Iterate through all the bits
+	// check through all the bits
 	while (num > 0) {
 
 		// If current bit is 1
 		if (num & 1) 
 		{
-			ones++;
+		ones = ones + 1;
 		}
 
 		// If current bit is 0
 		else 
 		{
-			zero = zero + 1;
+		zero = zero + 1;
 		}
 
 		num = num >> 1;
