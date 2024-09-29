@@ -14,25 +14,23 @@ Write a program that checks if a year is a leap year using the modulus operator.
 	{
 		if (year % 400 == 0)
 		{
-			printf("\n");
-			printf("'%d' is a Leap Year.", year);
+		printf("\n");
+		printf("'%d' is a Leap Year.", year);
 		}
 		else if ((year % 4 == 0) && (year % 100 !=0))
 		{
-			printf("\n");
-			printf("'%d' is a Leap Year.", year);
+		printf("\n");
+		printf("'%d' is a Leap Year.", year);
 		}
 		else
 		{
-			printf("\n");
-			printf("'%d' is not a Leap Year.", year);
+		printf("\n");
+		printf("'%d' is not a Leap Year.", year);
 		}
 	}
 	else
 	{
-		printf("Invalid Year.");
+	printf("Invalid Year.");
 	}
-	
-	
 return 0;
 }
