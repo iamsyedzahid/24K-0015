@@ -17,7 +17,14 @@ int main()
 	}
 	 else if (a>0)
 	{
-		printf("Number is positive.");
+		if (a%0==0)
+		{
+			printf("Number is even and positive.");
+		}
+		else 
+		{
+			printf("Number is odd and positive.");
+		}
 	}
 	else 
 	 {
