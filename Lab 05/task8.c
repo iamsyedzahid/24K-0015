@@ -8,24 +8,24 @@ int main()
 	scanf("%d",&num);
 
 
-	// check through all the bits
+	// checking all bits on binary level
 	while (num > 0) {
 
-		// If current bit is 1
-		if (num & 1) 
-		{
+	// if current bit is one
+	if (num & 1 == 1) 
+	{
 		ones = ones + 1;
-		}
-
-		// If current bit is 0
-		else 
-		{
-		zero = zero + 1;
-		}
-
-		num = num >> 1;
 	}
-	//print number of 1s
-	printf("Count of 1s in number is %d\n", ones);
+
+	// If current bit is zero
+	else 
+	{
+		zero = zero + 1;
+	}
+
+	num = num >> 1;
+	}
+	//printing number of 1s
+	printf("one in a number are %d\n", ones);
 return 0;
 }
