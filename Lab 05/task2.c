@@ -2,10 +2,10 @@
 
 int main()
 {
-	float a;
+	int a;
 	
 	printf("Enter a number: ");
-	scanf("%f", &a);
+	scanf("%d", &a);
 	
 	if (a==0) 
 	{
@@ -17,7 +17,7 @@ int main()
 	}
 	 else if (a>0)
 	{
-		if (a%0==0)
+		if (a%2==0)
 		{
 			printf("Number is even and positive.");
 		}
@@ -27,8 +27,8 @@ int main()
 		}
 	}
 	else 
-	 {
+	{
 		 printf("invalid number");
-	 }
+	}
 return 0;	
 }
