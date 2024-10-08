@@ -19,12 +19,9 @@ int main() {
   while(i < size) {
 
     if(arr[i] == number) {
-      printf("%d found at index %d", number, Index);
       Index = i;
-    }
-    else
-    {
-      printf("%d not found", number);
+	  printf("%d found at index %d", number, Index);
+	  break;
     }
     i++;  
   }
