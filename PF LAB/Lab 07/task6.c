@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int i;
     int input;
 
@@ -17,6 +18,7 @@ int main() {
     }
     
     int max = num[0];
+    
     for (i=0 ; i < input ; i++)
     {
         if(num[i]>max)
@@ -39,9 +41,11 @@ int main() {
     printf("Numbers ocurring more than once: ");
     for (i = 0; i <= max; i++)
     {
-       if(countarr[i] > 1){
-       		printf("%d, ", i);
-	}
+       if(countarr[i] > 1)
+       {
+       		printf("%d. ", i);
+	   }
     }
+
     return 0;
 }
