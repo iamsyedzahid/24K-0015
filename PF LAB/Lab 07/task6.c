@@ -11,7 +11,7 @@ int main()
     int num[input];
 	
     
-	for (i = 0; i < input; i++)
+    for (i = 0; i < input; i++)
     {
         printf("Element %d: ", i + 1);
         scanf("\n%d", &num[i]);
@@ -27,8 +27,8 @@ int main()
         }
     }
 
-	int countarr[max+1];
-	for (i = 0; i <= max; i++)
+    int countarr[max+1];
+    for (i = 0; i <= max; i++)
     {
        countarr[i] = 0;
     }
@@ -44,7 +44,7 @@ int main()
        if(countarr[i] > 1)
        {
        		printf("%d. ", i);
-	   }
+       }
     }
 
     return 0;
