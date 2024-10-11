@@ -1,44 +1,49 @@
-#include <stdio.h>
+// console.log("HI");
 
-int main() {
-    int arr[7], min = 0, max = 40, sum = 0;
-    float avg;
-    int extremeDays[7];
-    int extremeCount = 0;
+// var myname = "Fatima";
+// console.log(myname);
+// myname = "Ali";
+// console.log(myname);
+// var myname = "Hassan";
 
-    printf("Enter temperatures for 7 days:\n");
-    for (int i = 0; i < 7; i++)
-    {
-        scanf("%d", &arr[i]);
-        sum += arr[i]; //adding all the temperatures for avergae
-    }
+// let score = 100;
+// console.log(score);
 
-    avg = sum / 7.0;
+// score = 50;
 
-    for (int i = 0; i < 7; i++)
-    {
-        if (arr[i] < min || arr[i] > max)
-        {
-            extremeDays[extremeCount] = i + 1; //store the day
-            extremeCount++;
-        }
-    }
+// let greetings="Hello";
+// if(true){
+//     let greetings = "Good Morning";
+//     console.log(greetings);
+// }
+// console.log(greetings);
 
-    printf("Average Temperature: %.1f°C\n", avg);
+// const pi = 3.141592653589793238462643383279502884197;
+// console.log(pi);
 
-    if (extremeCount > 0)
-    {
-        printf("Extreme temperatures on day(s): ");
-        for (int i = 0; i < extremeCount; i++)
-        {
-            printf("%d, ", extremeDays[i]);
-        }
-        printf("\n");
-    }
-    else
-    {
-        printf("No extreme temperatures recorded.\n");
-    }
+// console.log("My name is Zahid");
 
-    return 0;
+// var name;
+// var age;
+// const user = {
+//     name: "Zahid",
+//     age: 20
+//   };  
+// user.age = 26;
+// console.log(user.name);
+// console.log(user.age);
+
+
+// function greet (name)
+// {
+//     return "Hello, " + name + ".";
+// }
+// let message = greet("Zahid");
+// console.log(message);
+
+function greet (name)
+{
+    console.log("Hello, World.");
 }
+let sayhello = greet;
+sayhello();
