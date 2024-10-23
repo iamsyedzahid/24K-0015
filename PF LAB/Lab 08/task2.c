@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
 	int start, end, num, i;
 
 	printf("Enter the start of the range: ");
