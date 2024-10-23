@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 
 int main() {
@@ -14,10 +15,16 @@ int main() {
 			scanf("%d", &matrix[i][j]);
 		}
 	}
-
+	printf("Matrix is: \n ");
+	for (i = 0; i < n; i++) {
+	    for (j=0; j < n; j++){
+		printf("%3d", matrix[i][j]);
+	    }
+	    printf("\n");
+	}
 	printf("Diagonal elements:\n");
 	for (i = 0; i < n; i++) {
-		printf("%d\n", matrix[i][i]);
+	 		printf("%d\n", matrix[i][i]);
 	}
 
 	return 0;
