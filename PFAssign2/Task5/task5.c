@@ -20,7 +20,7 @@ void printVerticalHistogram(int values[], int count)
 {
     int max_value = 0;
 
-    // Find the maximum value to determine the number of rows
+    //Finding the maximum value to determine the number of rows
     for (int i = 0; i < count; i++)
     {
         if (values[i] > max_value)
@@ -33,12 +33,12 @@ void printVerticalHistogram(int values[], int count)
     printf("\n");
     printf("Vertical Histogram:\n");
 
-    // Print stars vertically without using vertical tabs
-    for (int row = max_value; row > 0; row--)
+    //Printing stars vertically
+    for (int j = max_value; j > 0; j--)
     {
         for (int i = 0; i < count; i++)
         {
-            if (values[i] >= row)
+            if (values[i] >= j)
             {
                 printf("* ");
             }
@@ -47,10 +47,10 @@ void printVerticalHistogram(int values[], int count)
                 printf("  ");
             }
         }
-        printf("\n");  // New line after each row for compatibility
+        printf("\n");  
     }
 
-    // Print the count of stars below each column
+    //Printing the count of stars below each column
     for (int i = 0; i < count; i++)
     {
         printf("%d ", values[i]);
@@ -76,7 +76,7 @@ int main()
     printf("\n");
     printf("\n");
     printf("Answer:\n");
-    
+
     printHorizontalHistogram(values, count);
     printVerticalHistogram(values, count);
 
