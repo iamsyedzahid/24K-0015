@@ -67,7 +67,8 @@ int main()
                 arr[m - 1][3] = '5';
                 arr[m - 1][4] = (char)(rand() % 26) + 'A';
 
-                for (int i = 0; i < m; i++) {
+                for (int i = 0; i < m; i++)
+                {
                     for (int j = 0; j < n; j++) {
                         printf("|%c| ", arr[i][j]);
                     }
