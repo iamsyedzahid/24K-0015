@@ -1,5 +1,3 @@
-// Write a C function that takes two numbers as input and returns their product.
-
 #include <stdio.h>
 
 int productOfTwoNum(int a, int b)
