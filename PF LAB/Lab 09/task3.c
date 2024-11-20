@@ -1,9 +1,3 @@
-/*
-Write a program that takes a destination string and a source string as input.
-Then, take an integer n as input and append only the first n characters of the source string to the destination.
-Print the new concatenated string.
-*/
-
 #include <stdio.h>
 #include <string.h>
 
