@@ -1,5 +1,3 @@
-// Write a function that checks if a given number is even or odd.
-
 #include <stdio.h>
 
 int evenORodd(int a)
