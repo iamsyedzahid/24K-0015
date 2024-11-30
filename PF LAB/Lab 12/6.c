@@ -10,7 +10,7 @@ int main() {
     }
 
     char *buffer = NULL, word[100];
-    size_t size = 0, bufferSize = 0;
+    int size = 0, bufferSize = 0;
     int wordCount[256] = {0};
 
     while (fscanf(file, "%s", word) != EOF) {
