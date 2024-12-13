@@ -1,1 +1,1 @@
-
+The main challenge was managing dynamic memory allocation for interdependent structures like fields, crops, and equipment, ensuring proper initialization and deallocation to prevent memory issues. Additionally, maintaining relationships between regional hubs and the central server while ensuring clear, concise output added complexity.
