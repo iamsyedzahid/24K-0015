@@ -1,1 +1,1 @@
-
+The main challenge in this program lies in managing the dynamic memory allocation for complex matrices representing user profiles, content metadata, and device preferences. Ensuring the proper allocation and deallocation of memory for each level of these matrices is critical, as each matrix involves multiple layers of pointers. Additionally, updating engagement scores for specific users and categories requires careful management of data integrity. The complexity increases with ensuring memory is properly freed after use to avoid leaks.
