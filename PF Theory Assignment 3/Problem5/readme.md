@@ -1,1 +1,1 @@
-
+The main challenge was dynamically managing memory for supplies and species, ensuring proper allocation, reallocation, and deallocation. Implementing features like adding, updating, and removing supplies or species required careful handling of pointers and indices. Providing clear output while maintaining data integrity added to the complexity.
