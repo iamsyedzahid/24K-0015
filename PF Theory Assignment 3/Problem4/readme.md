@@ -1,1 +1,1 @@
-
+The main challenge was managing dynamic memory for employee ratings and ensuring proper deallocation. Accurate calculations for scores, identifying the best/worst performers, and validating ratings (1-10) required precision. Iteration and comparison logic added to the complexity.
